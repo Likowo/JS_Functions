@@ -1,5 +1,16 @@
 // (completed above) Define a function, as a function declaration, maxOfTwoNumbersthat takes two numbers as arguments and returns the largest of them. If they are the same, return that number. Use the if-else construct or a ternary expression - the Math.max method is not allowed.
-
+const maxOfTwoNumbers = (num1,num2) => {
+    if(num1 === num2){
+        return num1
+    }else if(num1 > num2){
+        return num1
+    }else {
+        return num2
+    }
+}
+console.log(maxOfTwoNumbers(20,20))
+console.log(maxOfTwoNumbers(15,6))
+console.log(maxOfTwoNumbers(6,40))
 
 // Define a function, as a function expression, maxOfThreethat takes three numbers as arguments and returns the largest of them. Again, the Math.max method is not allowed.
 const maxOfThreethat = (num1,num2,num3) => {
@@ -18,7 +29,7 @@ console.log(maxOfThreethat(5,5,5))
 console.log(maxOfThreethat(5,5,3))
 
 
-// Define a function, as a function declaration, isCharAVowelthat takes a character as an argument and returns true if it is a vowel, false otherwise. // () = Parameters go in here and {} makes up the fxn body NB: The '.includes' Method works for both strings and Arrays
+// Define a function, as a function declaration, isCharAVowelthat takes a character as an argument and returns true if it is a vowel, false otherwise. // Parenthensis means () Parameters go in here and Curly brackets {} makes up the fxn body NB: The '.includes' Method works for both strings and Arrays
 console.log("this is the 3rd question below")
 const isCharAVowelthat  = (letter) => {
     const vowels = "aeiou"
