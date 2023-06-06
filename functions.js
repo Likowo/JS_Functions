@@ -1,16 +1,27 @@
 // (completed above) Define a function, as a function declaration, maxOfTwoNumbersthat takes two numbers as arguments and returns the largest of them. If they are the same, return that number. Use the if-else construct or a ternary expression - the Math.max method is not allowed.
-const maxOfTwoNumbers = (num1,num2) => {
-    if(num1 === num2){
-        return num1
-    }else if(num1 > num2){
-        return num1
-    }else {
-        return num2
-    }
+function maxOfTwoNumbers(x1,x2){
+    if (x1 === x2){
+        return x1
+    }else if(x1 > x2){
+        return x1
+    }else return x2
 }
-console.log(maxOfTwoNumbers(20,20))
-console.log(maxOfTwoNumbers(15,6))
-console.log(maxOfTwoNumbers(6,40))
+console.log(maxOfTwoNumbers(9,9))
+console.log(maxOfTwoNumbers(19,4))
+console.log(maxOfTwoNumbers(3,25))
+
+// const maxOfTwoNumbers = (num1,num2) => {
+//     if(num1 === num2){
+//         return num1
+//     }else if(num1 > num2){
+//         return num1
+//     }else {
+//         return num2
+//     }
+// }
+// console.log(maxOfTwoNumbers(20,20))
+// console.log(maxOfTwoNumbers(15,6))
+// console.log(maxOfTwoNumbers(6,40))
 
 // Define a function, as a function expression, maxOfThreethat takes three numbers as arguments and returns the largest of them. Again, the Math.max method is not allowed.
 const maxOfThreethat = (num1,num2,num3) => {
